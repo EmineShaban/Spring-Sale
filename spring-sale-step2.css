@@ -1,0 +1,99 @@
+
+.spring-sale{
+    position: relative;
+}
+
+.spring-sale-div {
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.spring-sale-bottom-div p{
+    color: white;
+}
+
+.spring-sale-div img {
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+}
+
+.spring-sale-bottom-div div:nth-child(1) {
+    background-color: white;
+    padding: 5px 0;
+    /* padding-left: 30%; */
+    width: 100%;
+}
+
+.spring-sale-bottom-div div:nth-child(1) p {
+    color: #fe6701;
+    text-transform: uppercase;
+    font-size: 10px;
+    /* padding-left: 15px; */
+    
+}
+
+.spring-sale-bottom-div div:nth-child(1) p:nth-child(1) {
+    /* padding-left: 24px; */
+    
+}
+
+.spring-sale-bottom-div div:nth-child(1) p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.spring-sale-bottom-div {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.spring-sale-bottom-div div:nth-child(2) {
+    width: 100%;
+    padding: 5px 0;
+    /* padding-left: 40px; */
+    background-color: #fe6701;
+    /* padding-left: calc(30% + 40px); */
+}
+
+.spring-sale-bottom-div div:nth-child(2) p {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.spring-sale-bottom-div div:nth-child(2) p span {
+    font-weight: 600;
+}
+ 
+.spring-sale-bottom-div div:nth-child(2),
+.spring-sale-bottom-div div:nth-child(1){
+    padding-left: 30%;
+}
+
+
+
+
+
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+
+
+@media screen and (min-width: 786px) {
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+
+}
